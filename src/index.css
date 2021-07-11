@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffffff;
+  background-color: #e3eaf0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.header {
+  background-color: #821717;
+  width: 750px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 20px;
+  font-weight: 900;
+  font-size: 5em;
+  text-align: center;
+}
+
+.app {
+  background-color: #141414;
+  width: 750px;
+  min-height: 200px;
+  height: min-content;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 20px;
+  display: flex;
+}
+
+
+.intro-text {
+  justify-content: center;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.question-section {
+  width: 100%;
+  position: relative;
+}
+
+
+.question-text {
+  width:375px;
+  margin-bottom: 12px;
+  padding-right: 30px;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.question-answer {
+  display:flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+
+.answer-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+}
+
+.answer-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;;
+}
+
+.submit-section {
+ color: #821717;
+ font-weight: 900;
+ margin-left: 15pt;
+}
+
+.thank {
+  width: 100%;
+  text-align:center;
+  font-weight: 900;
+  margin: 0 !important;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+  /* Write smartphone only styles here */
+
+  .question-answer {
+    width: 100%;
+    margin-bottom: 7pt;
+    margin-left: 20pt;
+  }
+
+  .question-text {
+    font-size: smaller;
+    padding-right: 2;
+  }
+
+  .question-section {
+    width: 100%
+  }
+
+  .answer-section {
+    font-size: smaller;
+    width: 80%;
+  }
+
+  .app {
+    width: 100%;
+    height: min-content;
+  }
+
+  .header {
+    width: 100%;
+    font-size: 2em;
+  }
+
+  .intro-text {
+    margin-left: 20pt;
+    font-size: smaller;
+  }
+
+  .submit-section {
+    margin-left: 15pt;
+    font-weight: 500;
+    font-size: smaller;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  /* Write smartphone only styles here */
+
+  .question-answer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15pt;
+    margin-bottom: 7pt;
+  }
+
+  .question-text {
+    font-size: smaller;
+    padding-right: 2;
+  }
+
+  .question-section {
+    width: 100%
+  }
+
+  .answer-section {
+    font-size: smaller;
+    width: 80%;
+  }
+
+  .app {
+    width: 100%;
+    height: min-content;
+  }
+
+  .header {
+    width: 100%;
+    font-size: 2em;
+  }
+  
+  .intro-text {
+    margin-left: 15pt;
+    font-size: small;
+  }
+
+  .submit-section {
+    margin-left: 15pt;
+    font-weight: 700;
+    font-size: smaller;
+  }
+
+}
